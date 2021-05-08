@@ -12,10 +12,12 @@ package olympics;
 public class Team {
     private int teamID;
     public Player member;
+    private int numPlayers;
     
     public Team(int teamid, Player teamMemb){
         member = teamMemb;
         teamid = teamID;
+        this.numPlayers++;
     }
     
 }

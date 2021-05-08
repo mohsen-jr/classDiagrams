@@ -18,6 +18,9 @@ public class Coach extends Person {
         teamMember = x;
         teamName = y;
     }
+    public Coach(){
+      
+    }
     
     
 }
